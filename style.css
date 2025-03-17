@@ -1,14 +1,17 @@
 body {
-  background-color: black;
+  background-color: #d5c7a3;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   margin-top: 10%;
   font-family: Georgia, serif;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌸</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
-html{
+html {
   height: 100%;
   width: 100%;
 }
@@ -17,30 +20,30 @@ html{
   border: 1px solid black;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #f2e2b1;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
 }
 
-.pic{
+.pic {
   height: 600px;
   width: 400px;
   object-fit: cover;
   border: 1px solid black;
 }
 
-h2{
-  color: black;
+h2 {
+  color: #bdb395;
 }
 
-#start{
+#start {
   text-align: left;
 }
 
-#end{
+#end {
   text-align: right;
 }
